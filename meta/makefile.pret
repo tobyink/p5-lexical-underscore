@@ -1,0 +1,9 @@
+# This file provides instructions for packaging.
+
+`lexical-underscore`
+	perl_version_from m`lexical::underscore`;
+	version_from      m`lexical::underscore`;
+	readme_from       m`lexical::underscore`;
+	test_requires     p`Test::More 0.61`;
+.
+
