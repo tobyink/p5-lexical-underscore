@@ -15,7 +15,7 @@ BEGIN {
 }
 
 sub lexical::underscore
-{	
+{
 	my $level = @_ ? shift : 0;
 	my $lexicals = peek_my($level + 2);
 	exists $lexicals->{'$_'} ? $lexicals->{'$_'} : \$_;
