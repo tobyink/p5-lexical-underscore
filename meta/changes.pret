@@ -4,10 +4,19 @@
 	issued  2012-11-11;
 	label   "Initial release".
 
-
 `lexical-underscore 0.002 cpan:TOBYINK`
 	issued    2014-09-10;
 	changeset [
 		item "Switch to Dist::Inkt."^^Packaging;
 	].
 
+`lexical-underscore 0.002 cpan:TOBYINK`
+	issued    2014-09-15;
+	changeset [
+		item [
+			a dcs:Bugfix, dcs:Packaging;
+			label "Restore dynamic config which adds PadWalker to dependencies when Perl >= 5.9.0.";
+			dcs:fixes RT#98883;
+			dcs:thanks cpan:SREZIC;
+		];
+	].

@@ -6,7 +6,7 @@ use warnings;
 
 BEGIN {
 	$lexical::underscore::AUTHORITY = 'cpan:TOBYINK';
-	$lexical::underscore::VERSION   = '0.002';
+	$lexical::underscore::VERSION   = '0.003';
 }
 
 use if $] >= 5.009, PadWalker => qw( peek_my );

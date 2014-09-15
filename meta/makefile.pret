@@ -1,5 +1,5 @@
 @prefix deps:  <http://ontologi.es/doap-deps#> .
 
 <http://purl.org/NET/cpan-uri/dist/lexical-underscore/project>
+	deps:runtime-requirement         [ deps:on "Perl 5.008000"^^deps:CpanId ].
 	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ].
-
