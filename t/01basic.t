@@ -1,3 +1,5 @@
+no if $] > 5.018000, warnings => qw(experimental);
+
 use Test::More;
 BEGIN {
 	$] >= 5.010 or plan skip_all => "test requires Perl 5.010";
