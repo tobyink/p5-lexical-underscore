@@ -10,7 +10,7 @@
 		item "Switch to Dist::Inkt."^^Packaging;
 	].
 
-`lexical-underscore 0.002 cpan:TOBYINK`
+`lexical-underscore 0.003 cpan:TOBYINK`
 	issued    2014-09-15;
 	changeset [
 		item [
