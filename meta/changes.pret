@@ -20,3 +20,12 @@
 			dcs:thanks cpan:SREZIC;
 		];
 	].
+
+`lexical-underscore 0.004 cpan:TOBYINK`
+	issued    2017-01-30;
+	changeset [
+		item [
+			a dcs:Update;
+			label "Fix for Perl >= 5.24, where lexical $_ no longer exists.";
+		];
+	].
