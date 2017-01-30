@@ -9,7 +9,7 @@ BEGIN {
 	$lexical::underscore::VERSION   = '0.003';
 }
 
-use if $] >= 5.009, PadWalker => qw( peek_my );
+use if ($] >= 5.009 && $] < 5.023), PadWalker => qw( peek_my );
 BEGIN {
 	*peek_my = sub { +{} } unless __PACKAGE__->can('peek_my');
 }
